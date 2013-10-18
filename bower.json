@@ -1,0 +1,27 @@
+{
+  "name": "require-cs",
+  "version": "0.0.0",
+  "authors": [
+    "Page <page@resin.io>"
+  ],
+  "description": "A requirejs plugin to compile coffee-script, features caching and source maps.",
+  "main": "cs.js",
+  "keywords": [
+    "requirejs",
+    "require",
+    "rjs",
+    "coffee-script",
+    "coffeescript"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "require-cache": "resin-io/require-cache"
+  }
+}
