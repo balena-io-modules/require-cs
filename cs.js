@@ -9,7 +9,7 @@ define(['cache', 'coffee-script'], function (cache, CoffeeScript) {
 			options.inline = true;
 			options.sourceFiles = [path];
 			code = CoffeeScript.compile(source, options);
-			return code.js + '\n//@ sourceMappingURL=data:application/json;base64,' + btoa(code.v3SourceMap);
+			return code.js + '\n//# sourceMappingURL=data:application/json;base64,' + btoa(code.v3SourceMap);
 		};
 	}
 	else {
